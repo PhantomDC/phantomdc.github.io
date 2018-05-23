@@ -8,7 +8,6 @@ class Header extends Component{
 
 	render(){
 
-
 		return (
 			<div className="header">
 				<div className="container">
@@ -16,7 +15,7 @@ class Header extends Component{
 						<a href="#" className="logo">
 							<img src="img/logo.svg" alt="Pena"/>
 						</a>
-						<Menu />
+						<Menu activeMenu={this.props.activeMenu}/>
 						<div className="addr">
 							<a href="tel:+74951342235">+7 (495) 134-22-35</a>
 							<a href="mailto:info@vpene.ru">info@vpene.ru</a>

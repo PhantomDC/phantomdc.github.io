@@ -76,6 +76,10 @@ html,body{
 	margin-right: 25px;
 }
 
+.menu li:last-child{
+	margin-right: 0;
+}
+
 .menu li a{
 	color: #fff;
 	font-size: 18px;
@@ -125,7 +129,8 @@ a:after{
 
 }
 
-a:not(.logo):hover:after{
+a:not(.logo):hover:after,
+.menu li.is-active a:after{
 	width: 100%;
 }
 
