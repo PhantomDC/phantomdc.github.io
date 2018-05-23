@@ -6,17 +6,14 @@ import Slider from "../Slider";
 
 class Contacts extends Component{
 
-	constructor(props){
-		super(props);
-		this.state = {activeMenu : "Контакты"};
-	}
+	
 
   render(){
 
 
     return (
       <div className="all_wrap">
-       	<Header activeMenu={this.state.activeMenu}/>
+       	<Header />
         	<div className="inner_page container">
         		<p>This is Contacts page</p>
         	</div>

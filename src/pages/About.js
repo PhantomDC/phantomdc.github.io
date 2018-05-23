@@ -6,17 +6,14 @@ import Slider from "../Slider";
 
 class About extends Component{
 
-	constructor(props){
-		super(props);
-		this.state = {activeMenu : "О нас"};
-	}
+
 
 	render(){
 
 
 		return (
 			<div className="all_wrap">
-			<Header activeMenu={this.state.activeMenu}/>
+			<Header />
 			<div className="inner_page container">
 			<p>This is About page</p>
 			</div>        

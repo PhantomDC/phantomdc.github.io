@@ -130,7 +130,7 @@ a:after{
 }
 
 a:not(.logo):hover:after,
-.menu li.is-active a:after{
+a.active:after{
 	width: 100%;
 }
 
